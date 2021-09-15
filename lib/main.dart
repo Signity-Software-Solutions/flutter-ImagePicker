@@ -29,7 +29,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage>  with ImagePickerListener{
+class _MyHomePageState extends State<MyHomePage> with ImagePickerListener{
 
   ImagePickerHandler imagePicker;
   File _selectedProfileImg;
